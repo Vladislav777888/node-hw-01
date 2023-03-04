@@ -1,0 +1,28 @@
+{
+  "name": "hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladislav777888/node-hw-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladislav777888/node-hw-01/issues"
+  },
+  "homepage": "https://github.com/Vladislav777888/node-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "yargs": "^17.7.1"
+  }
+}
