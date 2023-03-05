@@ -38,6 +38,8 @@ async function removeContact(contactId) {
     );
     const result = contacts.splice(idx, 1);
 
+    await fs.writeFile(contactsPath, JSON.stringify(contacts));
+
     console.log(result);
   } catch (error) {
     console.log(error);
